@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 Ans: a .git hidden folder is created. the initialization command prompts git to scan the folder and track the files/folder within.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Ans: The staging area is difference from the working directory in the sence that it can contain not all the files in the working directory. The staging area just contain the files from the working directory that will be added to the repository in the next commit. It provides the option to remove files in that will be included in the repository in the next commit should we wish to.
