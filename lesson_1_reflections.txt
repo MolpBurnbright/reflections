@@ -1,0 +1,14 @@
+Using diff to compare two versions of file helps reduce the time it would take to spot a bug since diff would just show the lines of codes that have changed and thus it doesnt
+need to go thru every line to spot the differences and bug.
+
+using version control can make you a more efficient programmer since you wouldnt need to manually store versions for back up copies. It woudl also be easier to store back ups 
+version control.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Ans. Git is intented to be used as software repository where multiple related changes can be committed at the same time (e.g. changes related to specific functionality).
+
+How can you use the commands git log and git diff to view the history of files?
+Ans. By using 'git log' to view all 'commits', then usinng 'git diff' to compare two consecutive commits
+
+How might using version control make you more confident to make changes that could break something?
+Ans. Using version control lets you revert back to previous version of codes thus giving confidence the working code can be recovered when something is broken.

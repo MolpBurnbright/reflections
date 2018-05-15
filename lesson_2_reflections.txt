@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+Ans: a .git hidden folder is created. the initialization command prompts git to scan the folder and track the files/folder within.
