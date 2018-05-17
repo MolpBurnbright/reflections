@@ -3,3 +3,9 @@ Ans: a .git hidden folder is created. the initialization command prompts git to 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Ans: The staging area is difference from the working directory in the sence that it can contain not all the files in the working directory. The staging area just contain the files from the working directory that will be added to the repository in the next commit. It provides the option to remove files in that will be included in the repository in the next commit should we wish to.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Ans: The staging area can be used to have one commit per logical change by only adding files to the staging area that are part of the logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Ans: When there is a feature or functionality that you'd like to experiment, and you are not yet sure the new feature should be added to the official version of the software, creating branch would be helpful. Having a different branch would make it easier maintain the official version of the code, unaffected by the changes being made to the experimental version of the software.
