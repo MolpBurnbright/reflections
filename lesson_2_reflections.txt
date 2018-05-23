@@ -9,3 +9,12 @@ Ans: The staging area can be used to have one commit per logical change by only 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Ans: When there is a feature or functionality that you'd like to experiment, and you are not yet sure the new feature should be added to the official version of the software, creating branch would be helpful. Having a different branch would make it easier maintain the official version of the code, unaffected by the changes being made to the experimental version of the software.
+
+How do the diagrams help you visualize the branch structure?
+Ans:It shows the commits, branches, and parentage of branches and commits, and thus shows which commits/features are included in each branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Ans: Merged changes applied by the two branches. It's easier to visualize/trace the commits and branches when they are represented as diagram.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Ans: The advantage of git's automatic merging is it saves time. The disadvantage is it may remove lines from the original version that still required in another version.
